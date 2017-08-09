@@ -1,24 +1,32 @@
 ---
 layout: post
-title:  "Neural Machine Translation"
+title:  "Style Transfer"
 author: "Joppe"
 ---
 
-Tale is minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.
+On my quest to make machine learning accessible to everyone that's interested, 
+I believe in the power of an integrated application.
+This is a codebase that not only contains the code used for the research paper, 
+but also uses it to create a user-facing interface that demonstrates a real feature
+that's made possible by the machine learning model.
 
-## Tale features
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
+This close connection of research and application, 
+gives an example of a complete workflow that simulates a real-world project.
 
-Head over to the [Example Content]({{ site.url }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
+## Making images _Scream_
+One area of research that is closely related to a fun, real-world application is _neural style transfer_.
+The goal here is to take an image and apply the style of another image to it.
+A typical example is to transfer the style of a _painting_ onto a photo. 
 
-## Browser Support
-Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼
+In this post, I'll sketch out the steps I went through to create a user-facing application
+that allows the user to upload a picture and then get the result of applying a chosen style
+to the given image.
 
-## Download or Contribute
-Tale is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](https://github.com/chesterhow/tale). If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.
+You can find a demo of the application [here]().
 
-Thanks for checking out Tale!
+Here's an overview of our process:
+
+-- _image of the workflow_
+
+## From Tensorflow to React
+
