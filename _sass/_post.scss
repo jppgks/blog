@@ -1,6 +1,19 @@
 .post {
   padding: 3rem 0;
 
+  h2 {
+    font-size: 1.66em;
+    letter-spacing: -.021em;
+    font-weight: 500;
+    margin-top: 2em;
+  }
+
+  &-intro {
+    font-family: $sans-font;
+    font-weight: 300;
+    margin-bottom: 4em;
+  }
+
   &-info {
     color: $default-tint;
     font-family: $palatino;
@@ -16,8 +29,8 @@
   &-title {
     color: $default-shade;
     font-family: $sans-font;
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 2.7em;
+    margin: 0 auto 3rem;
     text-align: center;
   }
 
@@ -26,7 +39,7 @@
     display: block;
     margin: 0 auto 3rem;
     width: 4rem;
-	opacity: .2;
+	opacity: 0.2;
   }
 
   p {
