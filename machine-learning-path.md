@@ -10,7 +10,7 @@ In this post, I will keep track of my progress in acquiring necessary skills to 
 The end goal is to apply these skills and have a meaningful impact on people in "the real-world".
 </p>
 <p>
-At every stop, I give a description together with my evaluation of the contribution of this stop to my machine learning skills. 
+At every stop, I give a description together with a reflection of the contribution of this stop to my machine learning skills. 
 </p>
 </div>
 
@@ -37,7 +37,7 @@ A few unsupervised learning methods like *PCA, K-means clustering and self-organ
 The course material eventually touched briefly on *convolutional neural networks* 
 as an introduction to a deep learning approach.
 
-**Evaluation.** The course was given from a mathematics perspective, 
+**Reflection.** The course was given from a mathematics perspective, 
 which required the application of the linear algebra that I had seen in the previous semester.
 If you need to build an intuition about a new subject, this approach might not be preferable. 
 However, after I read the [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/),
@@ -62,3 +62,12 @@ The examples at the end of the ANN course included the remarkable results attain
 Thus, [this well-renowned course](http://cs231n.stanford.edu) by Fei-Fei Li and Andrej Karpathy was a logical next step.
 
 TK
+
+## Stop 3 - deeplearning.ai assignments
+_Coursera courses (1-3, 4 & 5 aren't open yet at time of writing) - Andrew Ng_
+
+**Overview.** [Andrew Ng's deep learning courses](https://www.coursera.org/specializations/deep-learning) became available on Coursera [last week](https://twitter.com/AndrewYNg/status/894994683931148288) (August 8, 2017), so I had to check them out. It turns out that the material covered in the first three of the 5 courses (only three open at time of writing) is more or less the same as what I had seen at stop 1 and 2. I took this opportunity to validate my learnings, and went through all of the quizzes and programming assignments. I published my solutions [on GitHub](https://github.com/jppgks/coursera-deeplearning.ai).
+
+**Reflection.** Although I haven't seen any videos from the course, I can speak about the programming assignments. I felt like they were relatively easy, since Python is my go-to language and the instructions are very clear. They really take you by the hand and guide you through each Jupyter Notebook. I even found it addictive to get to the bottom of each notebook, which is an admirable feat by the team behind these courses.
+
+This was a nice stop that gave me confidence to start mini-side-projects of my own now.
