@@ -10,8 +10,7 @@ In this post, I will keep track of my progress in acquiring necessary skills to 
 The end goal is to apply these skills and have a meaningful impact on people in "the real-world".
 </p>
 <p>
-At every stop along the path, I give a description together with 
-my evaluation of the contribution of this stop to my machine learning skills. 
+At every stop, I give a description together with my evaluation of the contribution of this stop to my machine learning skills. 
 </p>
 </div>
 
