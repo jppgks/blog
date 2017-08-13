@@ -15,9 +15,13 @@ my evaluation of the contribution of this stop to my machine learning skills.
 </p>
 </div>
 
-### Table of contents
+<div class="post-line"></div>
+
 * TOC
 {:toc}
+
+<br/>
+<div class="post-line"></div>
 
 ## Stop 1 - _Artificial Neural Networks_
 _Course at KU Leuven University - professor Suykens_
