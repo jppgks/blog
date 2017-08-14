@@ -39,12 +39,6 @@ A few unsupervised learning methods like *PCA, K-means clustering and self-organ
 The course material eventually touched briefly on *convolutional neural networks* 
 as an introduction to a deep learning approach.
 
-**Reflection.** The course was given from a mathematics perspective, 
-which required the application of the linear algebra that I had seen in the previous semester.
-If you need to build an intuition about a new subject, this approach might not be preferable. 
-However, after I read the [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/),
-I was comfortable reading the math in the course and connect it to the corresponding neural network elements.
-
 Apart from the lectures, this course was mainly evaluated on a number of assignments we had to code in Matlab.
 The topics covered:
 - a comparison of the Levenberg-Marquardt optimization, with versus without Bayesion regularization,
@@ -52,6 +46,12 @@ The topics covered:
 - digit classification using stacked autoencoders,
 - character recognition with a Hopfield network, and
 - wine classification using a multi-layer feedforward network.
+
+**Reflection.** The course was given from a mathematics perspective, 
+which required the application of the linear algebra that I had seen in the previous semester.
+If you need to build an intuition about a new subject, this approach might not be preferable. 
+However, after I read the [Hacker's guide to Neural Networks](http://karpathy.github.io/neuralnets/),
+I was comfortable reading the math in the course and connect it to the corresponding neural network elements.
 
 The assignments forced the student to really get familiar with the mathematical background.
 It's the combination of the theoretical and practical side of things that made this course 
