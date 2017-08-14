@@ -22,7 +22,7 @@ At every stop, I give a description together with a reflection of the contributi
 <br/>
 <div class="post-line"></div>
 
-## Stop 1 - _Artificial Neural Networks_
+## Stop 1 - Artificial Neural Networks
 _Course at KU Leuven University - professor Suykens_
 
 **Overview**. [This introductory course](https://onderwijsaanbod.kuleuven.be/syllabi/e/H02C4AE.htm#activetab=doelstellingen_idp1338320) 
@@ -55,7 +55,7 @@ The assignments forced the student to really get familiar with the mathematical 
 It's the combination of the theoretical and practical side of things that made this course 
 a valuable contribution to my machine learning path.
 
-## Stop 2 - _CS231n_: Convolutional Neural Networks for Visual Recognition
+## Stop 2 - Convolutional Neural Networks for Visual Recognition (CS231n)
 _Course at Stanford University (YouTube) - Andrej Karpathy_
 
 The examples at the end of the ANN course included the remarkable results attained with **convolutional neural networks**.
@@ -63,7 +63,7 @@ Thus, [this well-renowned course](http://cs231n.stanford.edu) by Fei-Fei Li and 
 
 TK
 
-## Stop 3 - deeplearning.ai assignments
+## Stop 3 - Assignments deeplearning.ai (Coursera)
 _Coursera courses (1-3, 4 & 5 aren't open yet at time of writing) - Andrew Ng_
 
 **Overview.** [Andrew Ng's deep learning courses](https://www.coursera.org/specializations/deep-learning) became available on Coursera [last week](https://twitter.com/AndrewYNg/status/894994683931148288) (August 8, 2017), so I had to check them out. It turns out that the material covered in the first three of the 5 courses (only three open at time of writing) is more or less the same as what I had seen at stop 1 and 2. I took this opportunity to validate my learnings, and went through all of the quizzes and programming assignments. I published my solutions [on GitHub](https://github.com/jppgks/coursera-deeplearning.ai).
