@@ -16,6 +16,8 @@ At every stop, I give a description together with a reflection of the contributi
 
 <div class="post-line"></div>
 
+![](/assets/machine-learning-path.png)
+<br/>
 * TOC
 {:toc}
 
