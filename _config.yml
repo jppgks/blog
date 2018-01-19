@@ -1,11 +1,12 @@
 # Permalinks
 permalink:      /:year-:month-:day/:title
+paginate_path:  /blog/page:num/
 
 # Setup
-title:          jppgks 
+title:          "Joppe Geluykens" 
 paginate:       5
 baseurl:        ""
-url:            "https://jppgks.github.io"
+url:            "http://www.rvrie.com"
 
 # Assets
 sass:
@@ -18,8 +19,8 @@ markdown:       kramdown
 # About
 author:
   name:         Joppe Geluykens
-  url:          https://jppgks.github.io
-  email:        joppe@youngwolves.co
+  url:          http://www.rvrie.com
+  email:        joppe@rvrie.com
 
 # Custom vars
 version:        3.4.1
