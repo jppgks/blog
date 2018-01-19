@@ -1,17 +1,26 @@
 .post {
   padding: 3rem 0;
-
+  font-size: 0.7rem;
+  margin: 0 0 1rem;
+  text-align: justify;
+  font-weight: 400;
+  
   h2 {
-    font-size: 1.66em;
+    color: $default-color;
+    font-size: 1rem;
     letter-spacing: -.021em;
     font-weight: 700;
     margin-top: 2em;
   }
 
   &-intro {
-    font-family: $sans-font;
-    font-weight: 300;
-    margin-bottom: 4em;
+	p {
+      font-family: $sans-font;
+      font-size: 0.85rem;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
   }
 
   &-info {
@@ -29,8 +38,8 @@
   &-title {
     color: $default-shade;
     font-family: $sans-font;
-    font-size: 2.7em;
-    margin: 0 auto 3rem;
+    font-size: 2rem;
+    margin: 0 auto 0.5rem;
     text-align: center;
   }
 
@@ -42,12 +51,8 @@
 	opacity: 0.2;
   }
 
-  p {
-    margin: 0 0 1rem;
-    text-align: justify;
-  }
-
   a:hover {
     text-decoration: underline;
   }
 }
+
