@@ -1,6 +1,6 @@
 * {
   @include box-sizing;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 html,
@@ -8,6 +8,7 @@ body {
   color: $default-color;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 
 html {
