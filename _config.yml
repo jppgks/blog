@@ -6,7 +6,7 @@ paginate_path:  /blog/page:num/
 title:          "Joppe Geluykens" 
 paginate:       5
 baseurl:        ""
-url:            "http://www.rvrie.com"
+url:            "http://rvrie.com"
 
 # Assets
 sass:
@@ -19,7 +19,7 @@ markdown:       kramdown
 # About
 author:
   name:         Joppe Geluykens
-  url:          http://www.rvrie.com
+  url:          http://rvrie.com
   email:        joppe@rvrie.com
 
 # Custom vars
