@@ -16,6 +16,11 @@ It wasn’t until recently that I discovered machine learning and I decided to k
 <p>
 Find out more in the post titled <a href="/machine-learning-path">“machine learning path”</a>.
 </p>
+
+<h3>News</h3>
+<ul>
+  <li>June 2018: I will be joining the LIIR research group at KU Leuven to work on the <a href="https://newsinitiative.withgoogle.com/dnifund/dni-projects/veriflix-intelligently-managing-user-generated-content-round-4/">VeriFlix project</a> during summer.</li>
+</ul>
 </div>
 
 <br/>
