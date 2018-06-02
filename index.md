@@ -22,8 +22,8 @@ It wasn’t until recently that I discovered machine learning and I decided to k
 
 <h3>Timeline</h3>
 <ul>
-  <li>2018-current: MSc in Mathematical Engineering</li>
-  <li>2014-2018: BSc in Computer Science</li>
+  <li>2018-current: KU Leuven - MSc in Mathematical Engineering</li>
+  <li>2014-2018: KU Leuven - BSc in Computer Science</li>
 </ul>
 
 <br/>
