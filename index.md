@@ -10,8 +10,7 @@ As my undergraduate in Computer Science at KU Leuven University progresses, I st
 In the post titled <a href="/machine-learning-path">“machine learning path”</a>, I keep track of my progress.
 </p>
 <p>
-At the moment, I’m doing research for my bachelor’s thesis into text-to-image synthesis with generative adversarial networks. 
-It wasn’t until recently that I discovered machine learning and I decided to keep track of my progress in the field. 
+At the moment, I’m doing research for my bachelor’s thesis into text-to-image synthesis with generative adversarial networks.
 </p>
 
 <h3>News</h3>
