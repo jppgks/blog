@@ -6,14 +6,6 @@ layout: default
   {% if page.header %}
   <img src="{{page.header}}" />
   {% endif %}
-  <div class="post-info">
-    <span>Written by&nbsp;</span>{{ page.author }}
-
-    {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
-  </div>
 
   <h1 class="post-title">{{ page.title }}</h1>
 
