@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  Machine Learning Path
+title:  Research internship KU Leuven University (Summer 2018)
 author: Joppe
-permalink: /machine-learning-path/ 
+permalink: /research-internship-summer2018/ 
 ---
+
+![](/assets/research-internship-kul-summer18/post_header.svg)
 
 <div class="post-intro">
 <p>
@@ -17,7 +19,7 @@ At every stop, I give a description together with a reflection of the contributi
 
 <div class="post-line"></div>
 
-![](/assets/machine-learning-path.svg)
+![](/assets/machine-learning-path.png)
 <br/>
 * TOC
 {:toc}
