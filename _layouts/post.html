@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="post">
+  {% if page.header %}
+  <img src="{{page.header}}" />
+  {% endif %}
   <div class="post-info">
     <span>Written by&nbsp;</span>{{ page.author }}
 
