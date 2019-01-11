@@ -3,7 +3,7 @@ layout: post
 title:  Research internship KU Leuven University (Summer 2018)
 author: Joppe
 permalink: /research-internship-summer2018/ 
-header: /assets/research-internship-kul-summer18/post_header.svg
+header: src="/assets/research-internship-kul-summer18/post_header.svg"
 ---
 
 <div class="post-intro">

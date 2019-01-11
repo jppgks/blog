@@ -18,9 +18,22 @@ footer,
   font-size: $detail-font-size;
 
   &-container {
-    margin: 1rem auto;
+    margin: 1rem auto 0 auto;
     position: relative;
     text-align: center;
+
+    .logo { 
+      display: inline-table;
+
+      img {
+        float: left;
+        height: 50px;
+      }
+      
+      h2 {
+        line-height: 50px;
+      }
+    }
   }
 
   &-title {
@@ -39,12 +52,15 @@ footer,
 
   ul {
     list-style-type: none;
-    margin: 1rem 0 0;
+    margin: 0rem 0 0;
     padding: 0;
     text-align: center;
+    line-height: 50px;
 
     &.menu {
       text-transform: uppercase;
+      margin: 0;
+      top: 0;
     }
   }
 
