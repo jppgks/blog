@@ -26,6 +26,9 @@ During my time with Emergent, I acquired leadership skills that I am developing 
 
 <h3>News</h3>
 <ul>
+  <li>April 2019: Excited to discover the FMCG sector through a 2-month internship as <b>Associate Scientist with Procter & Gamble</b> starting May 15!</li>
+  <li>March 2019: Proud to announce that I will join <b>IBM Research in Zürich</b> for an <b>8-month internship in the Cognitive Computing & Industry Solutions department</b>. Can't wait to get started on July 29!</li>
+  <li>February 2019: Joined the LIIR research group for a 3-month internship assisting Elias Moons with his PhD project on automated ICD-coding.</li>
   <li>January 2019: Started <b>Daydream</b>, a one-person machine learning consultancy business. I’m available to do contract work for machine learning or data science, <a href="m&#97;il&#116;o&#58;&#106;opp%65&#64;%&#55;&#50;&#118;r%69%65&#46;%63&#111;m">contact me</a> for details!</li>
   <li>September 2018: I started a masters in Mathematical Engineering with a number of machine learning electives.</li>
   <li>
@@ -37,7 +40,7 @@ During my time with Emergent, I acquired leadership skills that I am developing 
 <h3>Timeline</h3>
 <ul>
   <li>January 2019: Started Daydream, a one-person machine learning consultancy business.</li> 
-  <li>2018-2019: KU Leuven - MSc in Mathematical Engineering</li>
+  <li>2018-2019: KU Leuven - Select courses of MSc in Mathematical Engineering</li>
   <li>2014-2018: KU Leuven - BSc in Computer Science</li>
 </ul>
 
