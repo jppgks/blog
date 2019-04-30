@@ -8,6 +8,8 @@ paginate:       5
 baseurl:        ""
 url:            "https://rvrie.com"
 
+include: ['_pages']
+
 # Assets
 sass:
   sass_dir:     _sass
