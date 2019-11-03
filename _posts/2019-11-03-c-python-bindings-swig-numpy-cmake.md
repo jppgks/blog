@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python bindings for C using SWIG: matrix multiplication and numpy.i
+title: Python bindings for C using SWIG&#58; matrix multiplication and numpy.i
 author: Joppe
 permalink: /c-python-swig-matrix-multiplication-numpy/
 ---
