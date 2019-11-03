@@ -83,26 +83,30 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 
+add_executable(matrix_multiply
+        matrix_multiplication.c
+        matrix_multiplication.h)
+
 # Python bindings:
 # load SWIG
 set(SWIG_EXECUTABLE "$ENV{HOME}/miniconda3/envs/bdap-assignment-1/bin/swig")
-FIND_PACKAGE(SWIG REQUIRED)
-INCLUDE(${SWIG_USE_FILE})
+find_package(SWIG REQUIRED)
+include(${SWIG_USE_FILE})
 
 # load Python
 set(PYTHON_INCLUDE_PATH "$ENV{HOME}/miniconda3/envs/bdap-assignment-1/include/python3.7m")
 set(PYTHON_LIBRARIES "$ENV{HOME}/miniconda3/envs/bdap-assignment-1/lib/libpython3.7m.so")
-FIND_PACKAGE(PythonLibs)
-INCLUDE_DIRECTORIES(${PYTHON_INCLUDE_PATH})
+find_package(PythonLibs)
+include_directories(${PYTHON_INCLUDE_PATH})
 
-INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-SET(CMAKE_SWIG_FLAGS "")
+set(CMAKE_SWIG_FLAGS "")
 
 # create SWIG library
-SET_SOURCE_FILES_PROPERTIES(matrix_multiplication.i PROPERTIES SWIG_FLAGS "-includeall")
-SWIG_ADD_LIBRARY(MatrixMultiplication LANGUAGE python SOURCES matrix_multiplication.i matrix_multiplication.c)
-SWIG_LINK_LIBRARIES(MatrixMultiplication ${PYTHON_LIBRARIES})
+set_source_files_properties(matrix_multiplication.i PROPERTIES SWIG_FLAGS "-includeall")
+swig_add_library(MatrixMultiplication LANGUAGE python SOURCES matrix_multiplication.i matrix_multiplication.c)
+swig_link_libraries(MatrixMultiplication ${PYTHON_LIBRARIES})
 install(
         TARGETS ${SWIG_MODULE_MatrixMultiplication_REAL_NAME}
         DESTINATION $ENV{HOME}/miniconda3/envs/bdap-assignment-1/lib/python3.7/site-packages
