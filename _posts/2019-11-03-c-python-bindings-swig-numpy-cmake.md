@@ -34,7 +34,7 @@ Adapted from [`dot` example in the docs](https://docs.scipy.org/doc/numpy/refere
 
 `matrix_multiplication.i`:
 
-{% highlight swig %}
+{% highlight SWIG %}
 %module MatrixMultiplication
 
 %{
