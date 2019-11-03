@@ -16,11 +16,15 @@ permalink: /c-python-swig-matrix-multiplication-numpy/
 ## C header
 
 In `matrix_multiplication.h`:
+
 {% highlight c %}
 void multiply_naive(double *a, double *b, double *c, int n);
 {% endhighlight %}
 
 ## SWIG definition
+
+Adapted from [`dot` example in the docs](https://docs.scipy.org/doc/numpy/reference/swig.interface-file.html?highlight=array#beyond-the-provided-typemaps).
+
 `matrix_multiplication.i`:
 
 {% highlight c %}
@@ -65,3 +69,44 @@ double my_multiply_naive(
 %include "matrix_multiplication.h"
 
 {% endhighlight %}
+
+## CMake
+Put [`numpy.i`](https://github.com/numpy/numpy/blob/master/tools/swig/numpy.i) in the project directory.
+
+`CMakeLists.txt`:
+
+{% highlight cmake %}
+cmake_minimum_required(VERSION 3.10)
+project(MatrixMultiplication C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(.)
+
+# Python bindings:
+# load SWIG
+set(SWIG_EXECUTABLE "$ENV{HOME}/miniconda3/envs/bdap-assignment-1/bin/swig")
+FIND_PACKAGE(SWIG REQUIRED)
+INCLUDE(${SWIG_USE_FILE})
+
+# load Python
+set(PYTHON_INCLUDE_PATH "$ENV{HOME}/miniconda3/envs/bdap-assignment-1/include/python3.7m")
+set(PYTHON_LIBRARIES "$ENV{HOME}/miniconda3/envs/bdap-assignment-1/lib/libpython3.7m.so")
+FIND_PACKAGE(PythonLibs)
+INCLUDE_DIRECTORIES(${PYTHON_INCLUDE_PATH})
+
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
+
+SET(CMAKE_SWIG_FLAGS "")
+
+# create SWIG library
+SET_SOURCE_FILES_PROPERTIES(matrix_multiplication.i PROPERTIES SWIG_FLAGS "-includeall")
+SWIG_ADD_LIBRARY(MatrixMultiplication LANGUAGE python SOURCES matrix_multiplication.i matrix_multiplication.c)
+SWIG_LINK_LIBRARIES(MatrixMultiplication ${PYTHON_LIBRARIES})
+install(
+        TARGETS ${SWIG_MODULE_MatrixMultiplication_REAL_NAME}
+        DESTINATION $ENV{HOME}/miniconda3/envs/bdap-assignment-1/lib/python3.7/site-packages
+)
+{% endhighlight %}
+
+
