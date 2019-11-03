@@ -21,6 +21,13 @@ In `matrix_multiplication.h`:
 void multiply_naive(double *a, double *b, double *c, int n);
 {% endhighlight %}
 
+## Desired Python interface
+
+{% highlight python %}
+out = np.zeros([3,3], dtype=np.double)
+multiply_naive(np.ones([3, 3], dtype=np.double), np.ones([3, 3], dtype=np.double), out)
+{% endhighlight %}
+
 ## SWIG definition
 
 Adapted from [`dot` example in the docs](https://docs.scipy.org/doc/numpy/reference/swig.interface-file.html?highlight=array#beyond-the-provided-typemaps).
