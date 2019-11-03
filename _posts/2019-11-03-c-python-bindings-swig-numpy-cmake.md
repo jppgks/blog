@@ -23,8 +23,8 @@ void multiply_naive(double *a, double *b, double *c, int n);
 
 ## Desired Python interface
 
-{% highlight python %}
-out = np.zeros([3,3], dtype=np.double)
+{% highlight python 3 %}
+out = np.zeros([3, 3], dtype=np.double)
 multiply_naive(np.ones([3, 3], dtype=np.double), np.ones([3, 3], dtype=np.double), out)
 {% endhighlight %}
 
