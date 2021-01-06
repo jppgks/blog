@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <nav class="nav">
-      <div class="nav-container">
-        <a href="{{ site.baseurl }}/" class="logo">
-		  <img src="/assets/logo_bw.svg">
-          <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
-        <ul class="menu">
-          <li><a href="{{ site.baseurl }}/">Home</a></li>
-          <li><a href="{{ '/blog' | prepend: site.baseurl }}">Posts</a></li>
-          <li><a href="{{ '/workshops' | prepend: site.baseurl }}">Workshops</a></li>
-	  <li><a href="https://github.com/jppgks/resume/releases/latest/download/resume.pdf">Download CV</a></li>
-        </ul>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="{{ site.baseurl }}/" class="logo">
+        <img src="/assets/profile_pic.jpg" class="rounded">
+        <h2 class="nav-title">{{ site.title }}</h2>
+      </a>
+      <ul class="menu">
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ '/blog' | prepend: site.baseurl }}">Posts</a></li>
+        <li><a href="{{ '/workshops' | prepend: site.baseurl }}">Workshops</a></li>
+        <li><a href="https://github.com/jppgks/resume/releases/latest/download/resume.pdf">Download CV</a></li>
+      </ul>
     </div>
   </nav>
 
-    <main>
-      {{ content }}
-    </main>
+  <main>
+    {{ content }}
+  </main>
 
-    <footer>
-      <span>
-       You can <a href="m&#97;il&#116;o&#58;&#106;opp%65&#64;%&#55;&#50;&#118;r%69%65&#46;%63&#111;m">email</a> or <a href="&#116;&#101;&#108;&#58;&#43;&#51;&#50;&#52;&#57;&#56;&#50;&#51;&#55;&#52;&#54;&#57;">call</a> me.
-      </span>
-    </footer>
-  </body>
+  <footer>
+    <span>
+      You can <a href="m&#97;il&#116;o&#58;&#106;opp%65&#64;%&#55;&#50;&#118;r%69%65&#46;%63&#111;m">email</a> or <a
+        href="&#116;&#101;&#108;&#58;&#43;&#51;&#50;&#52;&#57;&#56;&#50;&#51;&#55;&#52;&#54;&#57;">call</a> me.
+    </span>
+  </footer>
+</body>
+
 </html>

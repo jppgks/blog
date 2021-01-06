@@ -59,6 +59,11 @@ img {
   display: block;
   margin: 0 0 1rem;
   max-width: 100%;
+
+  &.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+  }
 }
 
 td {

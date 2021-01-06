@@ -3,10 +3,10 @@ permalink:      /:year-:month-:day/:title
 paginate_path:  /blog/page:num/
 
 # Setup
-title:          "daydream" 
+title:          "Joppe Geluykens" 
 paginate:       5
 baseurl:        ""
-url:            "https://rvrie.com"
+url:            "https://www.joppegeluykens.com"
 
 include: ['_pages']
 
@@ -21,7 +21,7 @@ markdown:       kramdown
 # About
 author:
   name:         Joppe Geluykens
-  url:          https://rvrie.com
+  url:          https://www.joppegeluykens.com
   email:        joppe@rvrie.com
 
 # Custom vars

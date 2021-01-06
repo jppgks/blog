@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Daydream"
+title:  "Hi!"
 author: "Joppe"
-header: src="/assets/logo_bw.svg" height="150px"
+header: src="/assets/profile_pic.jpg" height="150px"
 ---
 
 <div class="post-intro">
