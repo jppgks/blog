@@ -2,7 +2,6 @@
 layout: post
 title:  "Training Workshops"
 author: "Joppe"
-header: src="/assets/logo_bw.svg" height="150px"
 permalink: /workshops/
 ---
 
