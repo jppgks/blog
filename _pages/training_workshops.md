@@ -16,6 +16,11 @@ I provide training workshops that cover a deep dive into certain technical topic
 <div class="post-line"></div>
 
 <h3>Topics</h3>
+<h4> Cloud </h4>
+<ul>
+  <li>Scaling beyond the proof of concept</li>
+</ul>
+
 <h4>TensorFlow</h4>
 <ul>
   <li>Distributed (multi-GPU) model training with TensorFlow for faster experimentation</li>
